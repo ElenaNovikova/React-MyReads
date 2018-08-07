@@ -1,6 +1,6 @@
 {
   "name": "React-MyReads",
-  "homepage": "https://elenanovikova.github.io/React-MyReads/",
+  "homepage": "https://elenanovikova.github.io/React-MyReads/build",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "prop-types": "^15.6.1",
