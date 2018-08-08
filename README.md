@@ -6,7 +6,7 @@ some text goes here
 For production build click [here](https://elenanovikova.github.io/React-MyReads/build) to open Live project.
 <br> **OR** <br>
 For developer build:
-1. Download or <code>git clone</code> this project's repository from [here](https://github.com/ElenaNovikova/React-MyReads.git).
+1. Download the project as a [ZIP archive](https://github.com/ElenaNovikova/React-MyReads/archive/master.zip) or <code>git clone</code> this project's repository from [here](https://github.com/ElenaNovikova/React-MyReads.git).
 2. Navigate to the project's folder on your local machine.
 3. Install all necessary project dependencies with <code>npm install</code>.
 4. Start up a local server with <code>npm start</code>.
