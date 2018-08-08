@@ -1,6 +1,6 @@
 # React-MyReads
 React - My Reads: A Book Tracking App - Project nº7 for Udacity/Google FEND
-##
+## About this App
 some text goes here
 ## How to run the App
 For production build click [here](https://elenanovikova.github.io/React-MyReads/build) to open Live project.
@@ -9,11 +9,13 @@ For developer build:
 1. Download the project as a [ZIP archive](https://github.com/ElenaNovikova/React-MyReads/archive/master.zip) or <code>git clone</code> this project's repository from [here](https://github.com/ElenaNovikova/React-MyReads.git).
 2. Navigate to the project's folder on your local machine.
 3. Install all necessary project dependencies with <code>npm install</code>.
-4. Start up a local server with <code>npm start</code>.
+4. Start up your local server with <code>npm start</code>.
 ## How to use the App
 <strong>You can move the books on the shelves.</strong><br>
 some text....<br>
 <strong>Use Search input field to find and add new books.</strong>
+## Note
+This application uses the backend API that have a fixed pre-set of cached search queries, which can be found in the project's [SEARCH_TERMS.md](https://github.com/ElenaNovikova/React-MyReads/blob/master/SEARCH_TERMS.md).
 ## Licensing
 *Copyright 2018 Elena Novikova* <br>
 Licensed under the Educational Community License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
