@@ -1,7 +1,7 @@
 # React-MyReads
 React - My Reads: A Book Tracking App - Project nº7 for Udacity/Google FEND
 ## About this App
-some text goes here
+(WORK IN PROGRESS)
 ## How to run the App
 For production build click [here](https://elenanovikova.github.io/React-MyReads/build) to open Live project.
 <br> **OR** <br>
