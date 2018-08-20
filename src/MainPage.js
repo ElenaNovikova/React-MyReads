@@ -14,10 +14,15 @@ class MainPage extends Component{
                             <h2 className="bookshelf-title">Currently Reading</h2>
                             <div className="bookshelf-books">
                                 <ol className="books-grid">
-                                  {this.props.books.filter(book => book.shelf === 'currentlyReading')
-                                  .map(book => (
+                                  {
+                                    this.props.books
+                                        .filter(book => book.shelf === 'currentlyReading')
+                                        .map(book => (
                                       <li key={book.id}>
-                                          <Book book={book} />
+                                          <Book
+                                              book={book}
+                                              moveShelf={this.props.moveShelf}
+                                          />
                                       </li>
                                   ))
                                   }
@@ -31,7 +36,10 @@ class MainPage extends Component{
                               {this.props.books.filter(book => book.shelf === 'wantToRead')
                               .map(book => (
                                   <li key={book.id}>
-                                      <Book book={book} />
+                                      <Book
+                                          book={book}
+                                          moveShelf={this.props.moveShelf}
+                                      />
                                   </li>
                               ))
                               }
@@ -45,7 +53,10 @@ class MainPage extends Component{
                               {this.props.books.filter(book => book.shelf === 'read')
                               .map(book => (
                                   <li key={book.id}>
-                                      <Book book={book} />
+                                      <Book
+                                        book={book}
+                                        moveShelf={this.props.moveShelf}
+                                      />
                                   </li>
                               ))
                               }
