@@ -8,7 +8,7 @@ class BooksApp extends React.Component {
     state = {
         books: []
     }
-    // Receiving the initial set of books
+    // Receiving the initial set of books from backend server
     componentDidMount() {
         BooksAPI.getAll().then((books) => {
             this.setState({ books })
