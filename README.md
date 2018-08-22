@@ -14,6 +14,10 @@ For developer build:
 <strong>You can move the books on the shelves.</strong><br>
 some text....<br>
 <strong>Use Search input field to find and add new books.</strong>
+## App dependencies
+1. The [react-router](https://www.npmjs.com/package/react-router) package
+2. The [create-react-app](https://github.com/facebook/create-react-app) package
+3. The [escape-string-regexp](https://www.npmjs.com/package/escape-string-regexp) package
 ## Note
 This application uses the backend API that have a fixed pre-set of cached search queries, which can be found in the project's [SEARCH_TERMS.md](https://github.com/ElenaNovikova/React-MyReads/blob/master/SEARCH_TERMS.md).
 ## Licensing
