@@ -130,6 +130,7 @@ body, .app {
   border: 1px dashed #dedede;
   background: #8caebd61;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .book {
@@ -183,4 +184,12 @@ body, .app {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+
+/* footer */
+
+.copyright div {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
